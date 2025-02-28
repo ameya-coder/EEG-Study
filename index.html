@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEG Study Participation</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #D4145A, #FBB03B);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .register-button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 25px;
+            background-color: #d32f2f;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .register-button:hover {
+            background-color: #b71c1c;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        ol {
+            text-align: left;
+            display: inline-block;
+            margin: 20px 0;
+            padding: 0;
+        }
+        p, h1, h2 {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Join Our EEG Study</h1>
+        <p>We are seeking participants for a unique EEG study, immersed in 360-degree urban environments, experienced through a VR headset to investigate brain responses to urban built environments.</p>
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScCSQ-HY2ERwcIPR6Q7O6-xZ3VhuV_1sm76wOGlBLbpuNOK5A/viewform?usp=header" class="register-button">Register for Survey</a>
+        
+        <p><strong>Age:</strong> 20 - 60 years</p>
+        <h2>As a participant, you will:</h2>
+        <ol>
+            <li>Experience an immersive urban environment</li>
+            <li>Provide feedback on how you feel</li>
+            <li>Have your brain activity measured</li>
+            <li>Contribute to research in Urban Design</li>
+        </ol>
+        <br>
+        <a href="info.html" class="register-button">Participant Information</a>
+        <div class="image-container">
+            <a href="poster.jpeg" download>
+                <img src="poster.jpeg" alt="Study Poster">
+            </a>
+        </div>
+        
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <p>For more information <br><strong>Contact:</strong> 9037378803</p>
+    </div>
+</body>
+</html>
